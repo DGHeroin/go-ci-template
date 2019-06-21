@@ -17,6 +17,6 @@ install:
 ## Travis-CI 自动部署
 ### macOS
 ```yaml
-gem install travis # 安装 travis 工具自动生成 .travis.yml
+gem install travis    # 安装 travis 工具自动生成 .travis.yml
 travis setup releases # 重新生成带部署的 .travis.yml
 ```
