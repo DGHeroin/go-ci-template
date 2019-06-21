@@ -7,9 +7,6 @@ script:
 install:
 - export GOPATH="${TRAVIS_BUILD_DIR}/Godeps/_workspace:$GOPATH"
 - export PATH="${TRAVIS_BUILD_DIR}/Godeps/_workspace/bin:$PATH"
-branches:
-  only:
-    - master
 deploy:
   provider: releases
   api_key:
