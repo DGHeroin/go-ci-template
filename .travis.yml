@@ -16,5 +16,5 @@ deploy:
     secure: R2nj5KaRv7Uph1Gz2Jcc4enHIAs8LZwj08PA4gI/FuOEACuirJe0AlQdThvalEPsUwD6Z0NA+Qqe2yUgGnOLVTkQKBYtXJef6aL9Sg07M08WwA/BdcxI3WuZ79zNNK7cHFrFxtPoqt4slunkShIcGE4FlDW3c+828J6o+VNCzo4Iu4SHypVinuWsxiOCFm9AfD8Pxd40u1UjTA+14PWi/cOyVghjbQQfwhErAEJI37p0DsyROhffH/6uzG4WItDtv+noj4CuPs8REJmSaw8ViLiwIks5Q+RLJd++eod82+mhg5KDwIeQARdvkJfBoeaPDsrGwU9Tz7g7wCtiVRBJpzcrmKV3TFg958JRWX4iz3t1WDu4nwO0SDirSYee0XEUhjiJMX/ZMy1MudnPf4oGty+YvJKAkdHASa1Rl12zOdaRANuHqT3lysetet5HlZLjyg5fOLdlUPVpaIznjUcePtuvV//vTHbKwle0eIHN0ZbSZKaUJov3HDShfC2hI702CAOQ1mzT9dfsyzRqR+5e2g/kBUtUxwVPU9H+oJEw3RXa1/ws5uOrZjvJharp/LZeC2XJP4sliKWHrUWIw6wOuRtqfnMSwyGYQ+fyFjRMcAQrhSf3o/T9FfOsKKTo5+HkT8ee6i4wh8WRZWt/dnAhdM6k5InPZsA/I6HuJblVjVE=
   file: go-ci-template
   on:
-    branch: master
     repo: DGHeroin/go-ci-template
+    tags: true
